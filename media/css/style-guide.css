@@ -1,0 +1,190 @@
+/* Style Guide Patterns
+======================================================================
+====================================================================== */
+
+/*.style-menu-1{}*/
+.style-menu-1 a { color: #cc0000; }
+.style-menu-2 { border-bottom: 1px dotted #cc0000; }
+
+/* style guide colors structure */
+.sg-colors, .sg-logos{ overflow: hidden; margin-left: 0; margin-bottom: 1.5em; padding-left: 0; }
+.sg-colors li{ float: left; width: 18%; }
+
+.sg-logos li { display: inline-block; vertical-align: top; }
+
+.sg-colors li, .sg-logos li{
+    margin: 0 .5em .2em 0;
+    overflow: hidden;
+    padding: .3em;
+    }
+
+.sg-colors li:last-child, .sg-logos li:last-child{
+    margin-right: 0;
+    }
+
+
+/* color swatches */
+.sg-swatch{
+    display: block;
+    height: 5.5em;
+    margin-bottom: 0.2em;
+    width: 100%;
+    }
+
+.sg-label { line-height: 1; font-size: 12px; margin: 0; padding: .5em; letter-spacing: 1px; text-align: center; }
+
+.sg-logos .sg-label { margin-top: 8px; }
+
+/* Style Guide Headings */
+.sg-heading{
+    font-size: 20px; font-size: 1.25rem;
+    margin-bottom: .8em;
+    padding: .4em .8em;
+    }
+.sg-subheading{
+    font-size: 16px; font-size: 1rem;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    padding: .7em;
+    }
+.sg-tileheading{
+    font-size: 16px; font-size: 1rem;
+    margin-bottom: .5em;
+    }
+.sg-tileheading small{
+    font-weight: normal;
+    }
+
+.sg-toggler{
+    float: right;
+    margin-bottom: 0;
+    }
+
+.sg-heading a{
+    color: #fff;
+    font-size: 12px;
+    }
+
+.sg-quick-menu{
+    -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); -webkit-transform: translateZ(0); transform: translateZ(0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    padding: .5em 1em;
+    opacity: .2;
+    }
+.sg-quick-menu-list{ 
+    font-size: 14px; 
+    margin: 0;
+
+     
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    right: -180px;
+    width: 100%;
+    }
+.sg-quick-menu .is-hidden {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: absolute;
+    }
+.sg-quick-menu .is-visible {
+    right: 0px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: relative;
+    }
+
+
+
+.sg-quick-menu:hover{
+    opacity: .8;
+    }
+.sg-quick-menu, .sg-quick-menu a, .sg-quick-menu a:hover, .sg-quick-menu a:focus{
+    color: #e1e1e1;
+    text-decoration: none;
+    }
+.sg-quick-menu a:focus, .sg-quick-menu a:active{
+    background-color: #282828;
+    }
+
+
+
+/*.js .global-header{ 
+        -moz-transform: translateZ(0); -ms-transform: translateZ(0); -o-transform: translateZ(0); -webkit-transform: translateZ(0); transform: translateZ(0);
+        position: absolute; 
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        top: -480px;
+        }*/
+    /*.js .is-hidden {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        }
+    .js .is-visible {
+        top: 0px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        }*/
+
+
+
+/* MQ 600- tablets & small screens
+================================================================================ */
+@media (max-width: 37.5em) { /* 600PX */
+
+    .sg-colors{ margin-bottom: 1em; }
+    .sg-logos{ margin-bottom: 0; }
+
+    .sg-logos li{ display: inline; float: left; margin: 0 2.5% .8em 0;  }
+    .sg-logos li:nth-child(3n+3){
+        clear: left;
+        }
+
+    .sg-colors li{ width: 32.3%; }
+    .sg-colors li:nth-child(3n+3){ margin-right: 0; }
+
+}
+
+
+
+/* MQ 480- small screens
+================================================================================ */
+@media (max-width: 30em) { /* 480PX */
+
+    .sg-colors li{ width: 32%; }
+
+    /* Style Guide Headings */
+    .sg-heading{
+        font-size: 18px; font-size: 1.125rem;
+        padding: .3em .8em .5em;
+        }
+
+
+    .sg-toggler{
+        float: left;
+        }
+
+}
+
+
+
+/* MQ 380- small screens
+================================================================================ */
+@media (max-width: 23.75em) { /* 380PX */
+
+    .sg-colors li{ width: 48%; }
+    .sg-colors li:nth-child(even){ margin-right: 0; float: right; }
+
+}

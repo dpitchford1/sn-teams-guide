@@ -1,0 +1,564 @@
+/* = IMPORTANT GLOBALS = only to be used as trailing class (the last class) on elements..
+- .no-ss === no small screen === display none for small screens
+- .no-ws === no wide screen === display none for wide screens
+- target browsers: IE9+ FF6+ Chrome 11+ Safari5+ Opera11+
+*/
+/* TEMPLATE
+0.0 Document setup
+0.1 Headings & Titles
+0.2 Links & Cursors
+0.3 Accessibility & Usability
+0.4 Images, Media & Embedded content
+0.5 Lists
+0.6 Common Layout
+0.7 Custom Content Structure
+0.8 Tables
+
+---------------------------------------------- */
+
+
+/* $$ 0.0 Document setup
+======================================================================
+====================================================================== */
+    html {
+        background-color: #fff;
+        font-size: 1em;
+        text-rendering: optimizeLegibility;
+        }
+
+    /* tweaks */
+    @media (max-width: 33.333333em) {
+        /* 480px */
+        html {
+            -webkit-overflow-scrolling: touch;
+            -webkit-tap-highlight-color: #ebebeb;
+            }
+    }
+
+    body {
+        line-height: 1.5;
+        min-height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        z-index: 0;
+        }
+    p{ margin-top: 0; }
+
+
+/* $$ 0.1 Headings & Titles 
+======================================================================
+====================================================================== */
+
+    /* Global Headings setup
+    ---------------------------------------------- */
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        }
+
+    h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+        font-family: "Helvetica", Arial, sans-serif;
+        font-style: normal;
+        /*font-size: 80%;*/
+        text-transform: none;
+        color: #aaa;
+        }
+
+
+/* $$ 0.2 Links & Cursors
+======================================================================
+====================================================================== */
+
+    /* Cursors 
+    ---------------------------------------------- */
+    label, select, .pointer, button, html input[type="button"], .submit, input[type="reset"], input[type="submit"] {
+        cursor: pointer;
+        }
+
+    /* Links
+    ---------------------------------------------- */
+    a {
+        background: transparent;
+        text-decoration: none;
+        }
+
+    a:hover {
+        text-decoration: underline;
+        outline: none;
+        }
+
+    a:focus {
+        text-decoration: underline;
+        }
+
+    a:active {
+        color: inherit;
+        background-color: transparent;
+        }
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+        text-decoration: none;
+        }
+
+
+
+/* $$ 0.3 Accessibility & Usability
+======================================================================
+====================================================================== */
+    /* hidden text */
+    .hide-text {
+        position: absolute;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        height: 1px;
+        margin: -1px;
+        width: 1px;
+        }
+
+    .hide-divider {
+        border: 0 none;
+        height: 0 !important;
+        margin: 0;
+        padding: 0;
+        }
+
+    .quick-links {
+        background-color: #333;
+        color: #fff;
+        font-size: 15px;
+        font-size: 0.9375rem;
+        left: 10px;
+        padding: 5px 10px;
+        position: absolute;
+        text-decoration: none;
+        top: -100%;
+        -webkit-transition: top 200ms ease-in-out 0s;
+        transition: top 200ms ease-in-out 0s;
+        z-index: 11;
+        -ms-transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        }
+
+    .quick-links:focus {
+        top: 0;
+        color: #fff;
+        outline: none;
+        text-decoration: none;
+        }
+
+    /* style selected text */
+    ::-moz-selection {
+        background: #ddd;
+        color: #333;
+        text-shadow: none;
+        }
+    ::selection {
+        background: #ddd;
+        color: #333;
+        text-shadow: none;
+        }
+
+    .top-of-page{
+        float: right;
+        text-align: right;
+        }
+    /*section:target{ border: 1px solid #e1e1e1; }
+    article:target .sg-subheading{ border-left: 5px solid #2b3d57; }*/
+
+    .js .main-menu .is-selected{
+        text-decoration: underline;
+        color: #000;
+        }
+
+    /* tabs */
+    /*.js .tabbed { position: absolute; top: 0; left: -200em; }
+    .js .on { position: relative; top: 0; left: 0; }*/
+
+
+/* $ 0.4 Images, Media & Embedded content
+======================================================================
+====================================================================== */
+    img {
+        height: auto;
+        vertical-align: middle;
+        max-width: 100%;
+        width: 100%;
+        }
+
+    figcaption {
+        font-size: 13px;
+        font-size: 0.8125rem;
+        font-weight: normal; 
+        color: #000; 
+        }
+
+    object, embed, video{ max-width: 100%; height: auto; } /* flash & video */
+
+
+/* 0.5 Lists
+======================================================================
+====================================================================== */
+
+    ul, ol, dl      { margin-top: 0; margin-bottom: 1.625em; }
+    ul              { list-style-type: disc; }
+    ul li           { margin-bottom: .3em; }
+    ol              { list-style-type: decimal; list-style-position: outside; }
+    ol li           { margin-bottom: .3em; }
+    
+    /* nested lists */
+    ul ul, ul ol, ol ol, ol ul  { margin: .6em 0 .6em 1em; padding-left: 30px; }
+
+    /*definition lists*/
+    dt              { font-weight: normal; }
+    dl dd           { margin: 0 0 .5125em; }
+    dialog dd       { margin-bottom: .5em; line-height: normal; }
+    ul dl, ol dl    { margin: 0 0 0 .625em; }
+
+
+/* $ 0.6 Common Layout
+====================================================================== */
+    /* Global Setup
+    ---------------------------------------------- */
+    div, header, footer, aside, nav, section, article, main {
+        overflow: hidden;
+        position: relative;
+        }
+
+    /* main site wrapper = default to 980px for small desktop and IE 7 & 8 */
+    .site-wrapper {
+        width: 100%;
+        }
+
+    /* Fluid wrapper for main content - identical to site wrapper - fine grained adjustments for responsive breakpoints */
+    .fluid {
+        margin: 0 auto;
+        /*max-width: 100em;*/
+        padding: 0 1.15%;
+        }
+
+
+    /* all purpose wrappers */
+    .wrapper{ padding: 0 .8em; width: 100%; }
+
+    .region{
+        margin-bottom: 3em;
+        border-bottom: 3px dotted #aaa;
+        width: 100%;
+        }
+
+    /* all purpose wrapper */
+    .content-wrapper {
+        padding-bottom: 1em;
+        width: 100%;
+        }
+
+    .span-of-2{
+        display: inline-block;
+        float: left;
+        padding: 0 1.25% 1em;
+        margin-bottom: 1em;
+        width: 50%;
+        }
+    .span-of-2{
+        width: 50%;
+        }
+
+
+    /* Clear fix
+    ---------------------------------------------- */
+    .cf:before, .cf:after {
+        content: "";
+        display: table;
+        }
+
+    .cf:after {
+        clear: both;
+        }
+
+
+    .site-header{
+        padding: 2em 0 1em;
+        margin-bottom: 2em;
+        width: 100%;
+        }
+    .site-footer{
+        padding: 2em 0 1em;
+        margin-top: 2em;
+        }
+    .logo{
+        float: left;
+        /*margin-left: .8em;*/
+        text-indent: -100%;
+        }
+    .brand-title{
+        float: right;
+        font-size: 24px;
+        /*padding-right: .8em;*/
+        }
+
+
+    /* List - No Bullets
+    ---------------------------------------------- */
+
+    /* gets rid of bullets */
+    .no-bullet{
+        list-style: none; 
+        list-style-image: none; 
+        margin-left: 0;
+        padding-left: 0; 
+        }
+    /* gets rid of bullets on child ul */
+    .no-bullet .no-bullet{
+        margin-left: 15px !important; 
+        padding-left: 10px; 
+        }                   
+
+
+    /* List - Inline display, set margin, fix boxmodel
+    ---------------------------------------------- */
+    .inline-list{
+        margin: 0;
+        padding-left: 0;
+        overflow: hidden;
+        }                                           
+    .inline-list li{
+        float: left;
+        margin: 0 1em 0 0;
+        list-style: none outside none;
+        }   
+    .inline-list a{
+        display: block;
+        float: left;
+        margin: 0;
+        }
+
+    /* List - automatic numbered list (based on number of items)
+    ---------------------------------------------- */
+    .counted-list{
+        counter-reset: item;
+        list-style-type: none;
+        padding-left: 15px;
+        }
+    .counted-list li { counter-increment: item; }
+    .counted-list li:before  { content: counters(item, ".") ". "; }
+    .counted-list .count-heading, .counted-list .count-title, .counted-list a{
+        display: inline;
+        }
+    .counted-list .counted-list{
+        padding-left: 7px;
+        }
+
+    /* List - change bullets to alpha or roman = <ul class="alpha-list">
+    ---------------------------------------------- */
+    .alpha-list     { list-style-type: lower-alpha; } /* display ol list as letters a, b, c */
+    .roman-list     { list-style-type: lower-roman; } /* display ol list as roman i, ii, iii */
+
+
+    /* List - display inline with bullets
+    ---------------------------------------------- */
+    .inline-bullet{
+        margin: 0 0 2em;
+        overflow: hidden;
+        padding: 0;
+        }
+    .inline-bullet li{
+        float: left;
+        margin-bottom: 0;
+        padding-right: 1.562500em;
+        }
+    .inline-bullet li:first-child{
+        list-style: none;
+        }
+
+
+/* $$ 0.7 Custom Content
+======================================================================
+====================================================================== */
+    .form-label{ float: left; margin-right: 15px; padding-top: .4em; }
+
+    /* FANCY SELECT MENU STYLES */
+    select {
+        /* Remove select styling */
+        appearance: none;
+        -webkit-appearance: none;
+        /* Ugly Firefox way of doing it */
+        -moz-appearance: window;
+        background: none;
+        border: none;
+        outline: none;
+        float: left;
+        }
+
+    .fancy-select {
+        border: 1px solid #cacdce;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #156bac;
+        float: left;
+        }
+    .fancy-select select option {
+        border-top: 1px solid #cacdce;
+        padding-top: .1em;
+        padding-bottom: .1em;
+        }
+    .fancy-select select option:first-child {
+        border-top: 0;
+        }
+
+    /* This hides native dropdown button arrow in IE */
+    .fancy-select select::-ms-expand {
+        display: none;
+        }
+
+    /* Custom arrow - could be an image, SVG, icon font, etc. */
+    .fancy-select:after {
+        background: none;
+        color: #bbb;
+        content: "\25BC";
+        font-size: .7em;
+        padding: 0;
+        position: absolute;
+        right: 1em;
+        top: .9em;
+        bottom: .3em;
+        z-index: 1;
+        /* This hack makes the select behind the arrow clickable in some browsers */
+        pointer-events: none;
+        }
+       
+    /* Hover style - tricky because we're clipping the overflow */
+    .fancy-select:hover {
+        border: 1px solid #434a4f;
+        }
+        
+    /* Focus style */
+    .fancy-select select:focus {
+        outline: none;
+        border: none;
+        box-shadow: 0 0 1px 1px rgba(180,222,250, .85);
+        }
+        
+    /* This hides focus around selected option in FF */
+    .fancy-select select:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+        }
+
+    /* small select -- in a list */
+    .fancy-select-sm{
+        width: auto;
+        float: left;
+        }
+    .fancy-select-sm .text-field {
+        width: auto;
+        }
+    .fancy-select-sm select {
+        width: 110%;
+        max-width: 110%;
+        min-width: 110%;
+        padding: .3em 39% .4em .8em;
+        }
+
+    /* large select -- one in a block */
+    .fancy-select-lg {
+        width: 250px;
+        max-width: 250px;
+        }
+    .fancy-select-lg select {
+        /* Make sure the select is wider than the container so we can clip the arrow */
+        width: 275px;
+        max-width: 275px;
+        min-width: 275px;
+        /* Padding works surpringly well */
+        padding: .2em 10% .2em .8em;
+        }
+
+
+/* $$ 0.8 Tables
+======================================================================
+====================================================================== */
+    .data-table{
+        border-bottom: 3px double #ddd;
+        text-align: left;
+        width: 100%;
+        }
+    .data-table caption{
+        border-top: 3px double #ddd;
+        color: #666;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 1em;
+        padding: .6em .5em;
+        text-align: left;
+        }
+    .data-table th, .data-table td{
+        padding: .5em .6em;
+        }
+
+    .data-table-body tr:nth-child(odd) {
+        background-color: #f1f1f1;
+        }
+
+    .data-table-head .table-fullname    { width: 20%; }
+    .data-table-head .table-longname    { width: 15%; }
+    .data-table-head .table-shortname   { width: 15%; }
+    .data-table-head .hex-values        { width: 50%; }
+
+    .data-table-body .hex-value {
+        text-transform: lowercase;
+        font-family: Verdana;
+        letter-spacing: 1px;
+        font-size: 14px;
+        }
+    .data-table-body .hex-value:before {
+        content: "\00b7";
+        padding: 0 .5em;
+        color: red;
+        }
+    .data-table-body .hex-value:first-child:before {
+        content: "";
+        padding: 0;
+        }
+
+
+
+
+/* $ HELPERS
+====================================================================== */
+
+    br, .clear      { clear: both; }                    /*clears floats*/
+    .float-l        { float: left; }                    /*floats left*/
+    .float-r        { float: right !important; }        /*floats right*/
+    .visible, .show { display: block !important; }      /*displays as block, turns ON*/
+    .block          { display: block !important; }      /*displays as block, turns ON*/
+    .inline         { display: inline; }                /*displays as block, turns ON*/
+    .hidden         { display: none !important; }       /*displays as hidden, turns OFF*/
+    .no-bg          { background: 0 none !important; }  /*Removes Background*/
+    .no-border      { border: 0 none !important; }      /*Removes Border*/
+    hr              { clear: both; overflow: hidden; }
+
+    /*fonts*/
+    .text-left  { text-align: left; }
+    .text-right { text-align: right; }
+    .text-center{ text-align: center; }
+    .bold       { font-weight: bold; }
+    .italic     { font-style: italic; }
+    .underline  { border-bottom: 1px solid; }
+    .caption    { list-style: none; font-style: normal; font-size: 11px; line-height: normal; }
+    .uppercase  { text-transform: uppercase; }
+    .lowercase  { text-transform: lowercase; }
+
+    .no-m{ margin: 0; }
+
+    .border-left{ border-left: 2px solid #f4f7f8; }
+    .border-right{ border-right: 2px solid #f4f7f8; }
+
+
+
+
+
+

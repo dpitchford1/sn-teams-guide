@@ -1,0 +1,145 @@
+/* $$ ENHANCEMENTS - RESPONSIVE
+======================================================================
+====================================================================== */
+@media only screen{
+    /* VIEWPORT SETUP
+    ---------------------------------------------- */
+    @-webkit-viewport   { width: device-width; }
+    @-moz-viewport      { width: device-width; }
+    @-ms-viewport       { width: device-width; }
+    @-o-viewport        { width: device-width; }
+    @viewport           { width: device-width; }
+}
+
+
+
+
+@media (min-width: 90.000em) { /* 1440px */
+    .fluid {
+        max-width: 98%;
+        padding: 0 5%;
+        }
+}
+
+
+
+
+
+@media (max-width: 84.688em) { /* 1360px */
+    .span-of-2{
+        display: block;
+        float: none;
+        padding: 0 0 1rem;
+        width: 100%;
+        }
+}
+
+
+
+
+
+/* MQ 820- tablets & small screens
+================================================================================ */
+@media (max-width:51.250em){
+
+    .fluid {
+        max-width: 100%;
+        padding: 0 3.5%;
+        }
+
+    .site-header {
+        margin-bottom: 1em;
+        padding: 1em 0 1em;
+        }
+
+
+    .logo {
+        float: none;
+        margin-bottom: .3em;
+        }
+
+    .brand-title {
+        float: none;
+        font-size: 22px;
+        }
+
+}
+
+
+
+/* MQ 768- tablets & small screens
+================================================================================ */
+@media (max-width: 48em) { /* 768px */
+
+
+}
+
+
+
+/* MQ 600- tablets & small screens
+================================================================================ */
+@media (max-width: 37.5em) { /* 600PX */
+
+    body {
+        line-height: 1.3;
+        }
+
+    .wrapper{ padding: 0; }
+
+    .span-of-2{
+        border-bottom: 1px solid #ddd; 
+        margin-bottom: 1.5rem;
+        padding: 0 0 1rem;
+        }
+
+}
+
+
+
+/* MQ 480- small screens
+================================================================================ */
+@media (max-width: 30em) { /* 480PX */
+
+    .logo {
+        height: 40px;
+        width: 250px;
+        }
+    .brand-title {
+        font-size: 18px;
+        }
+
+}
+
+
+
+/* MQ 380- small screens
+================================================================================ */
+@media (max-width: 23.75em) { /* 380PX */
+
+    /* large select -- one in a block */
+    .fancy-select-lg {
+        width: 100%;
+        max-width: 100%;
+        margin: .3em 0 .7em;
+        }
+    .fancy-select-lg select {
+        /* Make sure the select is wider than the container so we can clip the arrow */
+        width: 110%;
+        max-width: 110%;
+        min-width: 110%;
+        /* Padding works surpringly well */
+        padding: .1em 10% .1em .4em;
+        }
+
+}
+
+
+/* MQ 320- small screens
+================================================================================ */
+@media (max-width: 20em) { /* 320PX */
+
+
+}
+
+
+

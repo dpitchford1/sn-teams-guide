@@ -1,0 +1,1120 @@
+
+
+/* START TEAMS COLOURS AND LOGOS
+====================================================================== */
+
+/* logo icon sizing */
+.ico-25 { display: block; height: 59px; width: 59px; }
+.ico-59 { display: block; height: 59px; width: 59px; }
+.ico-90 { display: block; height: 90px; width: 90px; }
+.ico-170{ display: block; height: 170px; width: 170px; }
+.ico-200{ display: block; height: 200px; width: 200px; }
+
+.ico-25-inline {
+    background-size: 25px auto !important;
+    padding-bottom: 5px;
+    padding-left: 32px;
+    padding-top: 5px;
+	}
+.ico-59-inline {
+    padding-bottom: 22px;
+    padding-left: 62px;
+    padding-top: 22px;
+	}
+.ico-90-inline { display: block; height: 90px; width: 90px; }
+.ico-170-inline{ display: block; height: 170px; width: 170px; }
+.ico-200-inline{ display: block; height: 200px; width: 200px; }
+
+/* global background options */
+.ico{
+  	background-repeat: no-repeat;
+  	background-position: 50% 50%;
+  	background-size:100% auto;
+	}
+.ico-inline{
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	/*background-size: 5% auto;
+	overflow: visible;*/
+	}
+
+.logo-59  { width: 59px; }
+.logo-90  { width: 90px; }
+.logo-170 { width: 170px; }
+.logo-200 { width: 200px; }
+
+
+/* template
+.nhl-bos--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/.png") }
+.nhl-bos--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/.png") }
+.nhl-bos--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/.png") }
+.nhl-bos--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/.png") }
+
+.nhl-bos .bgcolor{ background-color: #bos; } */
+
+/* Anaheim */
+.nhl-anh--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/anaheim-ducks.png") }
+.nhl-anh--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/anaheim-ducks.png") }
+.nhl-anh--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/anaheim-ducks.png") }
+.nhl-anh--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/anaheim-ducks.png") }
+.nhl-anh--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/anaheim-ducks.png") }
+
+.nhl-anh .bgcolor{ background-color: #EF5225; }
+
+/* Arizona */
+.nhl-ari--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/arizona-coyotes.png") }
+.nhl-ari--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/arizona-coyotes.png") }
+.nhl-ari--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/arizona-coyotes.png") }
+.nhl-ari--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/arizona-coyotes.png") }
+.nhl-ari--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/arizona-coyotes.png") }
+
+.nhl-ari .bgcolor{ background-color: #EFE1C6; }
+
+/* boston */
+.nhl-bos--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/boston-bruins.png") }
+.nhl-bos--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/boston-bruins.png") }
+.nhl-bos--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/boston-bruins.png") }
+.nhl-bos--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/boston-bruins.png") }
+.nhl-bos--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/boston-bruins.png") }
+
+.nhl-bos .bgcolor{ background-color: #000; }
+
+/* buffalo */
+.nhl-buf--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/buffalo-sabres.png") }
+.nhl-buf--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/buffalo-sabres.png") }
+.nhl-buf--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/buffalo-sabres.png") }
+.nhl-buf--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/buffalo-sabres.png") }
+.nhl-buf--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/buffalo-sabres.png") }
+
+.nhl-buf .bgcolor{ background-color: #AEB6B9; }
+
+/* calgary */
+.nhl-cgy--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/calgary-flames.png") }
+.nhl-cgy--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/calgary-flames.png") }
+.nhl-cgy--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/calgary-flames.png") }
+.nhl-cgy--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/calgary-flames.png") }
+.nhl-cgy--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/calgary-flames.png") }
+
+.nhl-cgy .bgcolor{ background-color: #E03A3E; }
+
+/* carolina */
+.nhl-car--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/carolina-hurricanes.png") }
+.nhl-car--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/carolina-hurricanes.png") }
+.nhl-car--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/carolina-hurricanes.png") }
+.nhl-car--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/carolina-hurricanes.png") }
+.nhl-car--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/carolina-hurricanes.png") }
+
+.nhl-car .bgcolor{ background-color: #E03A3E; }
+
+/* chicago */
+.nhl-chi--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/chicago-blackhawks.png") }
+.nhl-chi--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/chicago-blackhawks.png") }
+.nhl-chi--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/chicago-blackhawks.png") }
+.nhl-chi--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/chicago-blackhawks.png") }
+.nhl-chi--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/chicago-blackhawks.png") }
+
+.nhl-chi .bgcolor{ background-color: #E3263A; }
+
+/* colorado */
+.nhl-col--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/colorado-avalanche.png") }
+.nhl-col--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/colorado-avalanche.png") }
+.nhl-col--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/colorado-avalanche.png") }
+.nhl-col--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/colorado-avalanche.png") }
+.nhl-col--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/colorado-avalanche.png") }
+
+.nhl-col .bgcolor{ background-color: #8B2942; }
+
+/* columbus */
+.nhl-cls--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/columbus-blue-jackets.png") }
+.nhl-cls--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/columbus-blue-jackets.png") }
+.nhl-cls--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/columbus-blue-jackets.png") }
+.nhl-cls--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/columbus-blue-jackets.png") }
+.nhl-cls--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/columbus-blue-jackets.png") }
+
+.nhl-cls .bgcolor{ background-color: #00285C; }
+
+/* dallas */
+.nhl-dal--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/dallas-stars.png") }
+.nhl-dal--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/dallas-stars.png") }
+.nhl-dal--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/dallas-stars.png") }
+.nhl-dal--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/dallas-stars.png") }
+.nhl-dal--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/dallas-stars.png") }
+
+.nhl-dal .bgcolor{ background-color: #006A4E; }
+
+/* detroit */
+.nhl-det--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/detroit-red-wings.png") }
+.nhl-det--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/detroit-red-wings.png") }
+.nhl-det--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/detroit-red-wings.png") }
+.nhl-det--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/detroit-red-wings.png") }
+.nhl-det--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/detroit-red-wings.png") }
+
+.nhl-det .bgcolor{ background-color: #EC1F26; }
+
+/* edmonton */
+.nhl-edm--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/edmonton-oilers.png") }
+.nhl-edm--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/edmonton-oilers.png") }
+.nhl-edm--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/edmonton-oilers.png") }
+.nhl-edm--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/edmonton-oilers.png") }
+.nhl-edm--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/edmonton-oilers.png") }
+
+.nhl-edm .bgcolor{ background-color: #003777; }
+
+/* florida */
+.nhl-fla--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/florida-panthers.png") }
+.nhl-fla--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/florida-panthers.png") }
+.nhl-fla--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/florida-panthers.png") }
+.nhl-fla--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/florida-panthers.png") }
+.nhl-fla--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/florida-panthers.png") }
+
+.nhl-fla .bgcolor{ background-color: #C8213F; }
+
+/* los angeles */
+.nhl-la--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/los-angeles-kings.png") }
+.nhl-la--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/los-angeles-kings.png") }
+.nhl-la--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/los-angeles-kings.png") }
+.nhl-la--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/los-angeles-kings.png") }
+.nhl-la--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/los-angeles-kings.png") }
+
+.nhl-la .bgcolor{ background-color: #000; }
+
+/* minnesota */
+.nhl-min--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/minnesota-wild.png") }
+.nhl-min--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/minnesota-wild.png") }
+.nhl-min--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/minnesota-wild.png") }
+.nhl-min--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/minnesota-wild.png") }
+.nhl-min--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/minnesota-wild.png") }
+
+.nhl-min .bgcolor{ background-color: #025736; }
+
+/* montreal */
+.nhl-mon--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/montreal-canadiens.png") }
+.nhl-mon--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/montreal-canadiens.png") }
+.nhl-mon--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/montreal-canadiens.png") }
+.nhl-mon--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/montreal-canadiens.png") }
+.nhl-mon--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/montreal-canadiens.png") }
+
+.nhl-mon .bgcolor{ background-color: #BF2F38; }
+
+/* nashville */
+.nhl-nsh--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/nashville-predators.png") }
+.nhl-nsh--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/nashville-predators.png") }
+.nhl-nsh--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/nashville-predators.png") }
+.nhl-nsh--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/nashville-predators.png") }
+.nhl-nsh--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/nashville-predators.png") }
+
+.nhl-nsh .bgcolor{ background-color: #FDBB2F; }
+
+/* new jersey */
+.nhl-nj--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/new-jersey-devils.png") }
+.nhl-nj--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/new-jersey-devils.png") }
+.nhl-nj--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/new-jersey-devils.png") }
+.nhl-nj--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/new-jersey-devils.png") }
+.nhl-nj--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/new-jersey-devils.png") }
+
+.nhl-nj .bgcolor{ background-color: #E03A3E; }
+
+/* new york islanders */
+.nhl-nyi--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/new-york-islanders.png") }
+.nhl-nyi--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/new-york-islanders.png") }
+.nhl-nyi--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/new-york-islanders.png") }
+.nhl-nyi--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/new-york-islanders.png") }
+.nhl-nyi--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/new-york-islanders.png") }
+
+.nhl-nyi .bgcolor{ background-color: #00529B; }
+
+/* new york rangers */
+.nhl-nyr--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/new-york-rangers.png") }
+.nhl-nyr--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/new-york-rangers.png") }
+.nhl-nyr--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/new-york-rangers.png") }
+.nhl-nyr--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/new-york-rangers.png") }
+.nhl-nyr--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/new-york-rangers.png") }
+
+.nhl-nyr .bgcolor{ background-color: #0161AB; }
+
+/* ottawa */
+.nhl-ott--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/ottawa-senators.png") }
+.nhl-ott--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/ottawa-senators.png") }
+.nhl-ott--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/ottawa-senators.png") }
+.nhl-ott--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/ottawa-senators.png") }
+.nhl-ott--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/ottawa-senators.png") }
+
+.nhl-ott .bgcolor{ background-color: #E4173E; }
+
+/* philly */
+.nhl-phi--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/philadelphia-flyers.png") }
+.nhl-phi--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/philadelphia-flyers.png") }
+.nhl-phi--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/philadelphia-flyers.png") }
+.nhl-phi--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/philadelphia-flyers.png") }
+.nhl-phi--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/philadelphia-flyers.png") }
+
+.nhl-phi .bgcolor{ background-color: #F47940; }
+
+/* pittsburg */
+.nhl-pit--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/pittsburgh-penguins.png") }
+.nhl-pit--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/pittsburgh-penguins.png") }
+.nhl-pit--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/pittsburgh-penguins.png") }
+.nhl-pit--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/pittsburgh-penguins.png") }
+.nhl-pit--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/pittsburgh-penguins.png") }
+
+.nhl-pit .bgcolor{ background-color: #D1BD80; }
+
+/* san jose */
+.nhl-sj--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/san-jose-sharks.png") }
+.nhl-sj--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/san-jose-sharks.png") }
+.nhl-sj--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/san-jose-sharks.png") }
+.nhl-sj--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/san-jose-sharks.png") }
+.nhl-sj--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/san-jose-sharks.png") }
+
+.nhl-sj .bgcolor{ background-color: #05535D; }
+
+/* st louis */
+.nhl-stl--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/st-louis-blues.png") }
+.nhl-stl--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/st-louis-blues.png") }
+.nhl-stl--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/st-louis-blues.png") }
+.nhl-stl--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/st-louis-blues.png") }
+.nhl-stl--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/st-louis-blues.png") }
+
+.nhl-stl .bgcolor{ background-color: #0546A0; }
+
+/* tampa bay */
+.nhl-tb--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/tampa-bay-lightning.png") }
+.nhl-tb--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/tampa-bay-lightning.png") }
+.nhl-tb--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/tampa-bay-lightning.png") }
+.nhl-tb--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/tampa-bay-lightning.png") }
+.nhl-tb--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/tampa-bay-lightning.png") }
+
+.nhl-tb .bgcolor{ background-color: #C0C0C0; }
+
+/* toronto */
+.nhl-tor--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/toronto-maple-leafs-alt.png") }
+.nhl-tor--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/toronto-maple-leafs-alt.png") }
+.nhl-tor--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/toronto-maple-leafs-alt.png") }
+.nhl-tor--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/toronto-maple-leafs-alt.png") }
+.nhl-tor--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/toronto-maple-leafs-alt.png") }
+
+.nhl-tor .bgcolor{ background-color: #003777; }
+
+/* vancouver */
+.nhl-van--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/vancouver-canucks.png") }
+.nhl-van--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/vancouver-canucks.png") }
+.nhl-van--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/vancouver-canucks.png") }
+.nhl-van--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/vancouver-canucks.png") }
+.nhl-van--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/vancouver-canucks.png") }
+
+.nhl-van .bgcolor{ background-color: #07346F; }
+
+/* washington */
+.nhl-was--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/washington-capitals.png") }
+.nhl-was--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/washington-capitals.png") }
+.nhl-was--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/washington-capitals.png") }
+.nhl-was--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/washington-capitals.png") }
+.nhl-was--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/washington-capitals.png") }
+
+.nhl-was .bgcolor{ background-color: #CF132B; }
+
+/* winnipeg */
+.nhl-wpg--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/winnipeg-jets.png") }
+.nhl-wpg--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/winnipeg-jets.png") }
+.nhl-wpg--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/winnipeg-jets.png") }
+.nhl-wpg--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/winnipeg-jets.png") }
+.nhl-wpg--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/winnipeg-jets.png") }
+
+.nhl-wpg .bgcolor{ background-color: #002E62; }
+
+
+/* NHL Logo */
+.nhl-logo--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/nhl.png") }
+.nhl-logo--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/nhl.png") }
+.nhl-logo--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/nhl.png") }
+.nhl-logo--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/nhl.png") }
+.nhl-logo--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/nhl.png") }
+
+.nhl-logo .bgcolor{ background-color: #D0D3D4; }
+
+/* NHL Logo Special Teams East */
+.nhl-ste--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/east-east-all-stars.png") }
+.nhl-ste--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/east-east-all-stars.png") }
+.nhl-ste--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/east-east-all-stars.png") }
+.nhl-ste--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/east-east-all-stars.png") }
+.nhl-ste--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/east-east-all-stars.png") }
+
+.nhl-ste .bgcolor{ background-color: #D0D3D4; }
+
+/* NHL Logo Special Teams West */
+.nhl-stw--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/west-west-all-stars.png") }
+.nhl-stw--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/west-west-all-stars.png") }
+.nhl-stw--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/west-west-all-stars.png") }
+.nhl-stw--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/west-west-all-stars.png") }
+.nhl-stw--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/west-west-all-stars.png") }
+
+.nhl-stw .bgcolor{ background-color: #D0D3D4; }
+
+/* Eastern Conference */
+.nhl-east--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/eastern-conference.png") }
+.nhl-east--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/eastern-conference.png") }
+.nhl-east--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/eastern-conference.png") }
+.nhl-east--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/eastern-conference.png") }
+.nhl-east--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/eastern-conference.png") }
+
+.nhl-east .bgcolor{ background-color: #a6192e; }
+
+/* Western Conference */
+.nhl-west--25x25 { background-image: url("/teams/img/team_logos/25x25/hockey/nhl/western-conference.png") }
+.nhl-west--59x59 { background-image: url("/teams/img/team_logos/59x59/hockey/nhl/western-conference.png") }
+.nhl-west--90x90 { background-image: url("/teams/img/team_logos/90x90/hockey/nhl/western-conference.png") }
+.nhl-west--170x170 { background-image: url("/teams/img/team_logos/170x170/hockey/nhl/western-conference.png") }
+.nhl-west--200x200 { background-image: url("/teams/img/team_logos/200x200/hockey/nhl/western-conference.png") }
+
+.nhl-west .bgcolor{ background-color: #00205b; }
+
+
+
+/* START MLB
+====================================================================== */
+
+/* Arizona Diamondbacks */
+.mlb-ari--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/arizona-diamondbacks.png") }
+.mlb-ari--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/arizona-diamondbacks.png") }
+
+.mlb-ari .bgcolor{ background-color: #A71930; }
+
+/* Atlanta Braves */
+.mlb-atl--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/atlanta-braves.png") }
+.mlb-atl--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/atlanta-braves.png") }
+
+.mlb-atl .bgcolor{ background-color: #B71234; }
+
+/* Baltimore Orioles */
+.mlb-bal--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/baltimore-orioles.png") }
+.mlb-bal--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/baltimore-orioles.png") }
+
+.mlb-bal .bgcolor{ background-color: #ed4c09; }
+
+/* Boston Red Sox */
+.mlb-bos--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/boston-red-sox.png") }
+.mlb-bos--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/boston-red-sox.png") }
+
+.mlb-bos .bgcolor{ background-color: #002244; }
+
+/* Chicago Cubs */
+.mlb-chc--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/chicago-cubs.png") }
+.mlb-chc--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/chicago-cubs.png") }
+
+.mlb-chc .bgcolor{ background-color: #003279; }
+
+/* Chicago White Sox */
+.mlb-cws--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/chicago-white-sox.png") }
+.mlb-cws--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/chicago-white-sox.png") }
+
+.mlb-cws .bgcolor{ background-color: #000; }
+
+/* Cincinnati Reds */
+.mlb-cin--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/cincinnati-reds.png") }
+.mlb-cin--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/cincinnati-reds.png") }
+
+.mlb-cin .bgcolor{ background-color: #C6011F; }
+
+/* Cleveland Indians */
+.mlb-cle--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/cleveland-indians.png") }
+.mlb-cle--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/cleveland-indians.png") }
+
+.mlb-cle .bgcolor{ background-color: #003366; }
+
+/* Colorado Rockies */
+.mlb-col--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/colorado-rockies.png") }
+.mlb-col--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/colorado-rockies.png") }
+.mlb-col--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/colorado-rockies.png") }
+.mlb-col--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/colorado-rockies.png") }
+.mlb-col--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/colorado-rockies.png") }
+
+.mlb-col .bgcolor{ background-color: #C0C0C0; }
+
+/* Detroit Tigers */
+.mlb-det--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/detroit-tigers.png") }
+.mlb-det--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/detroit-tigers.png") }
+.mlb-det--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/detroit-tigers.png") }
+.mlb-det--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/detroit-tigers.png") }
+.mlb-det--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/detroit-tigers.png") }
+
+.mlb-det .bgcolor{ background-color: #DE4406; }
+
+/* Houston Astros */
+.mlb-hou--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/houston-astros.png") }
+.mlb-hou--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/houston-astros.png") }
+.mlb-hou--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/houston-astros.png") }
+.mlb-hou--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/houston-astros.png") }
+.mlb-hou--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/houston-astros.png") }
+
+.mlb-hou .bgcolor{ background-color: #072854; }
+
+/* Kansas City Royals */
+.mlb-kc--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/kansas-city-royals.png") }
+.mlb-kc--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/kansas-city-royals.png") }
+
+.mlb-kc .bgcolor{ background-color: #74B4FA; }
+
+/* Los Angeles Angels of Anaheim */
+.mlb-laa--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/los-angeles-angels.png") }
+.mlb-laa--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/los-angeles-angels.png") }
+
+.mlb-laa .bgcolor{ background-color: #B71234; }
+
+/* Los Angeles Dodgers */
+.mlb-lad--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/los-angeles-dodgers.png") }
+.mlb-lad--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/los-angeles-dodgers.png") }
+
+.mlb-lad .bgcolor{ background-color: #fff; }
+
+/* Miami Marlins */
+.mlb-mia--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/miami-marlins.png") }
+.mlb-mia--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/miami-marlins.png") }
+.mlb-mia--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/miami-marlins.png") }
+.mlb-mia--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/miami-marlins.png") }
+.mlb-mia--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/miami-marlins.png") }
+
+.mlb-mia .bgcolor{ background-color: #8A8D8F; }
+
+/* Milwaukee Brewers */
+.mlb-mil--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/milwaukee-brewers.png") }
+.mlb-mil--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/milwaukee-brewers.png") }
+
+.mlb-mil .bgcolor{ background-color: #182B49; }
+
+/* Minnesota Twins */
+.mlb-min--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/minnesota-twins.png") }
+.mlb-min--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/minnesota-twins.png") }
+.mlb-min--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/minnesota-twins.png") }
+.mlb-min--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/minnesota-twins.png") }
+.mlb-min--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/minnesota-twins.png") }
+
+.mlb-min .bgcolor{ background-color: #C6011F; }
+
+/* New York Mets */
+.mlb-nym--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/new-york-mets.png") }
+.mlb-nym--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/new-york-mets.png") }
+.mlb-nym--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/new-york-mets.png") }
+.mlb-nym--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/new-york-mets.png") }
+.mlb-nym--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/new-york-mets.png") }
+
+.mlb-nym .bgcolor{ background-color: #002C77; }
+
+/* New York Yankees */
+.mlb-nyy--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/new-york-yankees.png") }
+.mlb-nyy--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/new-york-yankees.png") }
+
+.mlb-nyy .bgcolor{ background-color: #1C2841; }
+
+/* Oakland Athletics */
+.mlb-oak--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/oakland-athletics.png") }
+.mlb-oak--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/oakland-athletics.png") }
+
+.mlb-oak .bgcolor{ background-color: #003831; }
+
+/* Philadelphia Phillies */
+.mlb-phi--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/philadelphia-phillies.png") }
+.mlb-phi--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/philadelphia-phillies.png") }
+
+.mlb-phi .bgcolor{ background-color: #BA0C2F; }
+
+/* Pittsburgh Pirates */
+.mlb-pit--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/pittsburgh-pirates.png") }
+.mlb-pit--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/pittsburgh-pirates.png") }
+
+.mlb-pit .bgcolor{ background-color: #000; }
+
+/* San Diego Padres */
+.mlb-sd--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/san-diego-padres.png") }
+.mlb-sd--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/san-diego-padres.png") }
+
+.mlb-sd .bgcolor{ background-color: #002147; }
+
+/* San Francisco Giants */
+.mlb-sf--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/san-francisco-giants.png") }
+.mlb-sf--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/san-francisco-giants.png") }
+
+.mlb-sf .bgcolor{ background-color: #000; }
+
+/* Seattle Mariners */
+.mlb-sea--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/seattle-mariners.png") }
+.mlb-sea--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/seattle-mariners.png") }
+
+.mlb-sea .bgcolor{ background-color: #0C2C56; }
+
+/* St. Louis Cardinals */
+.mlb-stl--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/st-louis-cardinals.png") }
+.mlb-stl--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/st-louis-cardinals.png") }
+
+.mlb-stl .bgcolor{ background-color: #c41e3a; }
+
+/* Tampa Bay Rays */
+.mlb-tb--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/tampa-bay-rays.png") }
+.mlb-tb--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/tampa-bay-rays.png") }
+
+.mlb-tb .bgcolor{ background-color: #00285D; }
+
+/* Texas Rangers */
+.mlb-tex--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/texas-rangers.png") }
+.mlb-tex--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/texas-rangers.png") }
+.mlb-tex--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/texas-rangers.png") }
+.mlb-tex--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/texas-rangers.png") }
+.mlb-tex--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/texas-rangers.png") }
+
+.mlb-tex .bgcolor{ background-color: #BD1021; }
+
+/* Toronto Blue Jays */
+.mlb-tor--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/toronto-blue-jays.png") }
+.mlb-tor--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/toronto-blue-jays.png") }
+
+.mlb-tor .bgcolor{ background-color: #003DA5; }
+
+/* Washington Nationals */
+.mlb-was--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/washington-nationals.png") }
+.mlb-was--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/washington-nationals.png") }
+.mlb-was--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/washington-nationals.png") }
+.mlb-was--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/washington-nationals.png") }
+.mlb-was--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/washington-nationals.png") }
+
+.mlb-was .bgcolor{ background-color: #BA122B; }
+
+
+/* MLB Logo */
+.mlb-logo--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/mlb.png") }
+.mlb-logo--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/mlb.png") }
+.mlb-logo--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/mlb.png") }
+.mlb-logo--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/mlb.png") }
+.mlb-logo--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/mlb.png") }
+
+/*.mlb-logo .bgcolor{ background-color: #wpg; }*/
+
+/* American League */
+.mlb-als--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/american-league.png") }
+.mlb-als--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/american-league.png") }
+.mlb-als--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/american-league.png") }
+.mlb-als--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/american-league.png") }
+.mlb-als--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/american-league.png") }
+
+/*.mlb-als .bgcolor{ background-color: #east; }*/
+
+/* National League */
+.mlb-nls--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/national-league.png") }
+.mlb-nls--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/national-league.png") }
+.mlb-nls--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/national-league.png") }
+.mlb-nls--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/national-league.png") }
+.mlb-nls--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/national-league.png") }
+
+/*.mlb-nls .bgcolor{ background-color: #west; }*/
+
+/* MLB Logo */
+.mlb-tbd--25x25 { background-image: url("/teams/img/team_logos/25x25/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--59x59 { background-image: url("/teams/img/team_logos/59x59/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--90x90 { background-image: url("/teams/img/team_logos/90x90/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--170x170 { background-image: url("/teams/img/team_logos/170x170/baseball/mlb/tbd-tbd.png") }
+.mlb-tbd--200x200 { background-image: url("/teams/img/team_logos/200x200/baseball/mlb/tbd-tbd.png") }
+
+/*.mlb-tbd .bgcolor{ background-color: #wpg; }*/
+
+
+
+/* START NFL
+====================================================================== */
+
+/* Arizona Cardinals */
+.nfl-ari--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/arizona-cardinals.png") }
+.nfl-ari--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/arizona-cardinals.png") }
+.nfl-ari--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/arizona-cardinals.png") }
+.nfl-ari--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/arizona-cardinals.png") }
+.nfl-ari--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/arizona-cardinals.png") }
+
+.nfl-ari .bgcolor{ background-color: #870619; }
+
+/* Atlanta Falcons */
+.nfl-atl--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/atlanta-falcons.png") }
+.nfl-atl--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/atlanta-falcons.png") }
+.nfl-atl--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/atlanta-falcons.png") }
+.nfl-atl--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/atlanta-falcons.png") }
+.nfl-atl--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/atlanta-falcons.png") }
+
+.nfl-atl .bgcolor{ background-color: #BD0D18; }
+
+/* Baltimore Ravens */
+.nfl-bal--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/baltimore-ravens.png") }
+.nfl-bal--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/baltimore-ravens.png") }
+.nfl-bal--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/baltimore-ravens.png") }
+.nfl-bal--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/baltimore-ravens.png") }
+.nfl-bal--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/baltimore-ravens.png") }
+
+.nfl-bal .bgcolor{ background-color: #280353; }
+
+/* Buffalo Bills */
+.nfl-buf--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/buffalo-bills.png") }
+.nfl-buf--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/buffalo-bills.png") }
+.nfl-buf--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/buffalo-bills.png") }
+.nfl-buf--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/buffalo-bills.png") }
+.nfl-buf--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/buffalo-bills.png") }
+
+.nfl-buf .bgcolor{ background-color: #00338D; }
+
+/* Carolina Panthers */
+.nfl-car--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/carolina-panthers.png") }
+.nfl-car--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/carolina-panthers.png") }
+.nfl-car--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/carolina-panthers.png") }
+.nfl-car--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/carolina-panthers.png") }
+.nfl-car--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/carolina-panthers.png") }
+
+.nfl-car .bgcolor{ background-color: #000; }
+
+/* Chicago Bears */
+.nfl-chi--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/chicago-bears.png") }
+.nfl-chi--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/chicago-bears.png") }
+.nfl-chi--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/chicago-bears.png") }
+.nfl-chi--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/chicago-bears.png") }
+.nfl-chi--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/chicago-bears.png") }
+
+.nfl-chi .bgcolor{ background-color: #DD4814; }
+
+/* Cincinnati Bengals */
+.nfl-cin--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/cincinnati-bengals.png") }
+.nfl-cin--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/cincinnati-bengals.png") }
+.nfl-cin--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/cincinnati-bengals.png") }
+.nfl-cin--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/cincinnati-bengals.png") }
+.nfl-cin--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/cincinnati-bengals.png") }
+
+.nfl-cin .bgcolor{ background-color: #000; }
+
+/* Cleveland Browns */
+.nfl-cle--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/cleveland-browns.png") }
+.nfl-cle--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/cleveland-browns.png") }
+.nfl-cle--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/cleveland-browns.png") }
+.nfl-cle--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/cleveland-browns.png") }
+.nfl-cle--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/cleveland-browns.png") }
+
+.nfl-cle .bgcolor{ background-color: #26201E; }
+
+/* Dallas Cowboys */
+.nfl-dal--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/dallas-cowboys.png") }
+.nfl-dal--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/dallas-cowboys.png") }
+.nfl-dal--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/dallas-cowboys.png") }
+.nfl-dal--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/dallas-cowboys.png") }
+.nfl-dal--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/dallas-cowboys.png") }
+
+.nfl-dal .bgcolor{ background-color: #8C8B8A; }
+
+/* Denver Broncos */
+.nfl-den--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/denver-broncos.png") }
+.nfl-den--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/denver-broncos.png") }
+.nfl-den--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/denver-broncos.png") }
+.nfl-den--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/denver-broncos.png") }
+.nfl-den--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/denver-broncos.png") }
+
+.nfl-den .bgcolor{ background-color: #FB4F14; }
+
+/* Detroit Lions */
+.nfl-det--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/detroit-lions.png") }
+.nfl-det--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/detroit-lions.png") }
+.nfl-det--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/detroit-lions.png") }
+.nfl-det--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/detroit-lions.png") }
+.nfl-det--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/detroit-lions.png") }
+
+.nfl-det .bgcolor{ background-color: #C5C7CF; }
+
+/* Green Bay Packers */
+.nfl-gb--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/green-bay-packers.png") }
+.nfl-gb--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/green-bay-packers.png") }
+.nfl-gb--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/green-bay-packers.png") }
+.nfl-gb--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/green-bay-packers.png") }
+.nfl-gb--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/green-bay-packers.png") }
+
+.nfl-gb .bgcolor{ background-color: #213D30; }
+
+/* Houston Texans */
+.nfl-hou--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/houston-texans.png") }
+.nfl-hou--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/houston-texans.png") }
+.nfl-hou--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/houston-texans.png") }
+.nfl-hou--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/houston-texans.png") }
+.nfl-hou--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/houston-texans.png") }
+
+.nfl-hou .bgcolor{ background-color: #02253A; }
+
+/* Indianapolis Colts */
+.nfl-ind--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/indianapolis-colts.png") }
+.nfl-ind--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/indianapolis-colts.png") }
+.nfl-ind--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/indianapolis-colts.png") }
+.nfl-ind--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/indianapolis-colts.png") }
+.nfl-ind--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/indianapolis-colts.png") }
+
+.nfl-ind .bgcolor{ background-color: #fff; }
+
+/* Jacksonville Jaguars */
+.nfl-jax--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/jacksonville-jaguars.png") }
+.nfl-jax--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/jacksonville-jaguars.png") }
+.nfl-jax--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/jacksonville-jaguars.png") }
+.nfl-jax--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/jacksonville-jaguars.png") }
+.nfl-jax--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/jacksonville-jaguars.png") }
+
+.nfl-jax .bgcolor{ background-color: #000; }
+
+/* Kansas City Chiefs */
+.nfl-kc--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/kansas-city-chiefs.png") }
+.nfl-kc--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/kansas-city-chiefs.png") }
+.nfl-kc--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/kansas-city-chiefs.png") }
+.nfl-kc--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/kansas-city-chiefs.png") }
+.nfl-kc--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/kansas-city-chiefs.png") }
+
+.nfl-kc .bgcolor{ background-color: #B20032; }
+
+/* Miami Dolphins */
+.nfl-mia--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/miami-dolphins.png") }
+.nfl-mia--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/miami-dolphins.png") }
+.nfl-mia--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/miami-dolphins.png") }
+.nfl-mia--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/miami-dolphins.png") }
+.nfl-mia--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/miami-dolphins.png") }
+
+.nfl-mia .bgcolor{ background-color: #008d97; }
+
+/* Minnesota Vikings */
+.nfl-min--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/minnesota-vikings.png") }
+.nfl-min--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/minnesota-vikings.png") }
+.nfl-min--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/minnesota-vikings.png") }
+.nfl-min--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/minnesota-vikings.png") }
+.nfl-min--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/minnesota-vikings.png") }
+
+.nfl-min .bgcolor{ background-color: #4F2682; }
+
+/* New England Patriots */
+.nfl-ne--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/new-england-patriots.png") }
+.nfl-ne--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/new-england-patriots.png") }
+.nfl-ne--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/new-england-patriots.png") }
+.nfl-ne--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/new-england-patriots.png") }
+.nfl-ne--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/new-england-patriots.png") }
+
+.nfl-ne .bgcolor{ background-color: #0D254C; }
+
+/* New Orleans Saints */
+.nfl-no--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/new-orleans-saints.png") }
+.nfl-no--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/new-orleans-saints.png") }
+.nfl-no--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/new-orleans-saints.png") }
+.nfl-no--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/new-orleans-saints.png") }
+.nfl-no--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/new-orleans-saints.png") }
+
+.nfl-no .bgcolor{ background-color: #D2B887; }
+
+/* New York Giants */
+.nfl-nyg--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/new-york-giants.png") }
+.nfl-nyg--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/new-york-giants.png") }
+.nfl-nyg--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/new-york-giants.png") }
+.nfl-nyg--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/new-york-giants.png") }
+.nfl-nyg--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/new-york-giants.png") }
+
+.nfl-nyg .bgcolor{ background-color: #fff; }
+
+/* New York Jets */
+.nfl-nyj--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/new-york-jets.png") }
+.nfl-nyj--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/new-york-jets.png") }
+.nfl-nyj--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/new-york-jets.png") }
+.nfl-nyj--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/new-york-jets.png") }
+.nfl-nyj--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/new-york-jets.png") }
+
+.nfl-nyj .bgcolor{ background-color: #fff; }
+
+/* Oakland Raiders */
+.nfl-oak--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/oakland-raiders.png") }
+.nfl-oak--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/oakland-raiders.png") }
+.nfl-oak--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/oakland-raiders.png") }
+.nfl-oak--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/oakland-raiders.png") }
+.nfl-oak--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/oakland-raiders.png") }
+
+.nfl-oak .bgcolor{ background-color: #C4C8CB; }
+
+/* Philadelphia Eagles */
+.nfl-phi--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/philadelphia-eagles.png") }
+.nfl-phi--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/philadelphia-eagles.png") }
+.nfl-phi--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/philadelphia-eagles.png") }
+.nfl-phi--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/philadelphia-eagles.png") }
+.nfl-phi--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/philadelphia-eagles.png") }
+
+.nfl-phi .bgcolor{ background-color: #003B48; }
+
+/* Pittsburgh Steelers */
+.nfl-pit--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/pittsburgh-steelers.png") }
+.nfl-pit--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/pittsburgh-steelers.png") }
+.nfl-pit--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/pittsburgh-steelers.png") }
+.nfl-pit--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/pittsburgh-steelers.png") }
+.nfl-pit--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/pittsburgh-steelers.png") }
+
+.nfl-pit .bgcolor{ background-color: #000; }
+
+/* San Diego Chargers */
+.nfl-sd--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/san-diego-chargers.png") }
+.nfl-sd--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/san-diego-chargers.png") }
+.nfl-sd--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/san-diego-chargers.png") }
+.nfl-sd--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/san-diego-chargers.png") }
+.nfl-sd--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/san-diego-chargers.png") }
+
+.nfl-sd .bgcolor{ background-color: #5B92E5; }
+
+/* San Francisco 49ers */
+.nfl-sf--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/san-francisco-49ers.png") }
+.nfl-sf--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/san-francisco-49ers.png") }
+.nfl-sf--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/san-francisco-49ers.png") }
+.nfl-sf--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/san-francisco-49ers.png") }
+.nfl-sf--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/san-francisco-49ers.png") }
+
+.nfl-sf .bgcolor{ background-color: #AF1E2C; }
+
+/* Seattle Seahawks */
+.nfl-sea--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/seattle-seahawks.png") }
+.nfl-sea--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/seattle-seahawks.png") }
+.nfl-sea--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/seattle-seahawks.png") }
+.nfl-sea--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/seattle-seahawks.png") }
+.nfl-sea--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/seattle-seahawks.png") }
+
+.nfl-sea .bgcolor{ background-color: #4EAE47; }
+
+/* St. Louis Rams */
+.nfl-stl--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/st-louis-rams.png") }
+.nfl-stl--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/st-louis-rams.png") }
+.nfl-stl--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/st-louis-rams.png") }
+.nfl-stl--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/st-louis-rams.png") }
+.nfl-stl--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/st-louis-rams.png") }
+
+.nfl-stl .bgcolor{ background-color: #13264B; }
+
+/* Tampa Bay Buccaneers */
+.nfl-tb--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/tampa-bay-buccaneers.png") }
+.nfl-tb--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/tampa-bay-buccaneers.png") }
+.nfl-tb--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/tampa-bay-buccaneers.png") }
+.nfl-tb--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/tampa-bay-buccaneers.png") }
+.nfl-tb--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/tampa-bay-buccaneers.png") }
+
+.nfl-tb .bgcolor{ background-color: #D60A0B; }
+
+/* Tennessee Titans */
+.nfl-ten--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/tennessee-titans.png") }
+.nfl-ten--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/tennessee-titans.png") }
+.nfl-ten--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/tennessee-titans.png") }
+.nfl-ten--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/tennessee-titans.png") }
+.nfl-ten--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/tennessee-titans.png") }
+
+.nfl-ten .bgcolor{ background-color: #648FCC; }
+
+/* Washington Redskins */
+.nfl-was--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/washington-redskins.png") }
+.nfl-was--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/washington-redskins.png") }
+.nfl-was--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/washington-redskins.png") }
+.nfl-was--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/washington-redskins.png") }
+.nfl-was--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/washington-redskins.png") }
+
+.nfl-was .bgcolor{ background-color: #773141; }
+
+
+/* NFL Logo */
+.nfl-logo--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/nfl.png") }
+.nfl-logo--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/nfl.png") }
+.nfl-logo--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/nfl.png") }
+.nfl-logo--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/nfl.png") }
+.nfl-logo--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/nfl.png") }
+
+/*.nfl-logo .bgcolor{ background-color: #wpg; }*/
+
+/* American Football League - AFC */
+.nfl-afc--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/afc.png") }
+.nfl-afc--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/afc.png") }
+.nfl-afc--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/afc.png") }
+.nfl-afc--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/afc.png") }
+.nfl-afc--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/afc.png") }
+
+/*.nfl-afc .bgcolor{ background-color: #east; }*/
+
+/* National Football League - NFC */
+.nfl-nfc--25x25 { background-image: url("/teams/img/team_logos/25x25/football/nfl/nfc.png") }
+.nfl-nfc--59x59 { background-image: url("/teams/img/team_logos/59x59/football/nfl/nfc.png") }
+.nfl-nfc--90x90 { background-image: url("/teams/img/team_logos/90x90/football/nfl/nfc.png") }
+.nfl-nfc--170x170 { background-image: url("/teams/img/team_logos/170x170/football/nfl/nfc.png") }
+.nfl-nfc--200x200 { background-image: url("/teams/img/team_logos/200x200/football/nfl/nfc.png") }
+
+/*.nfl-nfc .bgcolor{ background-color: #west; }*/
+
+
+
+/* START CFL
+====================================================================== */
+
+/* BC Lions */
+.cfl-bcl--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/bc-lions.png") }
+.cfl-bcl--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/bc-lions.png") }
+.cfl-bcl--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/bc-lions.png") }
+.cfl-bcl--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/bc-lions.png") }
+.cfl-bcl--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/bc-lions.png") }
+
+.cfl-bcl .bgcolor{ background-color: #CF4520; }
+
+/* Calgary Stampeders */
+.cfl-cgy--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/calgary-stampeders.png") }
+.cfl-cgy--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/calgary-stampeders.png") }
+
+.cfl-cgy .bgcolor{ background-color: #C8102E; }
+
+/* Edmonton Eskimos */
+.cfl-edm--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/edmonton-eskimos.png") }
+.cfl-edm--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/edmonton-eskimos.png") }
+
+.cfl-edm .bgcolor{ background-color: #2C5234; }
+
+/* Hamilton Tiger-Cats */
+.cfl-ham--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/hamilton-tiger-cats.png") }
+.cfl-ham--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/hamilton-tiger-cats.png") }
+
+.cfl-ham .bgcolor{ background-color: #000; }
+
+/* Montreal Alouettes */
+.cfl-mon--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/montreal-alouettes.png") }
+.cfl-mon--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/montreal-alouettes.png") }
+.cfl-mon--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/montreal-alouettes.png") }
+.cfl-mon--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/montreal-alouettes.png") }
+.cfl-mon--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/montreal-alouettes.png") }
+
+.cfl-mon .bgcolor{ background-color: #8A8D8F; }
+
+/* Ottawa Redblacks */
+.cfl-ott--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/ottawa-redblacks.png") }
+.cfl-ott--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/ottawa-redblacks.png") }
+
+.cfl-ott .bgcolor{ background-color: #A6192E; }
+
+/* Saskatchewan Roughriders */
+.cfl-sas--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/saskatchewan-roughriders.png") }
+.cfl-sas--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/saskatchewan-roughriders.png") }
+
+.cfl-sas .bgcolor{ background-color: #006341; }
+
+/* Toronto Argonauts */
+.cfl-tor--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/toronto-argonauts.png") }
+.cfl-tor--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/toronto-argonauts.png") }
+.cfl-tor--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/toronto-argonauts.png") }
+.cfl-tor--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/toronto-argonauts.png") }
+.cfl-tor--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/toronto-argonauts.png") }
+
+.cfl-tor .bgcolor{ background-color: #0C2340; }
+
+/* Winnipeg Bluebombers */
+.cfl-wpg--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/winnipeg-blue-bombers.png") }
+.cfl-wpg--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/winnipeg-blue-bombers.png") }
+
+.cfl-wpg .bgcolor{ background-color: #85714D; }
+
+/* CFL Logo */
+.cfl-logo--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/cfl.png") }
+.cfl-logo--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/cfl.png") }
+.cfl-logo--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/cfl.png") }
+.cfl-logo--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/cfl.png") }
+.cfl-logo--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/cfl.png") }
+
+.cfl-logo .bgcolor{ background-color: #A6192E; }
+
+/* CFL East Division */
+.cfl-eas--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/eas.png") }
+.cfl-eas--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/eas.png") }
+.cfl-eas--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/eas.png") }
+.cfl-eas--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/eas.png") }
+.cfl-eas--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/eas.png") }
+
+.cfl-eas .bgcolor{ background-color: #0057B8; }
+
+/* CFL West Division */
+.cfl-wes--25x25 { background-image: url("/teams/img/team_logos/25x25/football/cfl/wes.png") }
+.cfl-wes--59x59 { background-image: url("/teams/img/team_logos/59x59/football/cfl/wes.png") }
+.cfl-wes--90x90 { background-image: url("/teams/img/team_logos/90x90/football/cfl/wes.png") }
+.cfl-wes--170x170 { background-image: url("/teams/img/team_logos/170x170/football/cfl/wes.png") }
+.cfl-wes--200x200 { background-image: url("/teams/img/team_logos/200x200/football/cfl/wes.png") }
+
+.cfl-wes .bgcolor{ background-color: #DA291C; }
+
+
+
+
+
